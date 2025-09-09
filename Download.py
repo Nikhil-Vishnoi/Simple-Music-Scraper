@@ -13,7 +13,11 @@ import numpy as np
 # If web searchiung throws a error try changing the "httpx to be less than version 24 
 # py -m pip install "httpx<0.24" 
 from youtubesearchpython import VideosSearch
-
+# Create a folder 
+try:
+    os.mkdir(("Downloaded"))
+except FileExistsError:
+    i = 1 + 1
 # Use youtube-search-python to find the most relevant youtube link 
 def getSong(query):
     print(query)
