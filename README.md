@@ -1,4 +1,4 @@
-# Simple-Music-Scraper-
+# Simple-Music-Scraper
 Dependencies: 
 
 Pytube - Used to download all videos 
